@@ -15,7 +15,7 @@ $('.nav-main').find("li").each(function() {
   });
 $(document).ready(
         function() {
-          $('.menu-toggie').click(function() {
+          $('.icon-menu').click(function() {
             $('.nav-main').toggleClass('action')
             $('.over-lay').toggleClass('action')
           })
