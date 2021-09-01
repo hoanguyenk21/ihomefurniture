@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trang chủ</title>
+	<link rel="shortcut icon" type="image/png" href="images/favicon-ihome.png"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/js" href="js/bootstrap.min.js">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/fontawesome.css">
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	<link
+	rel="stylesheet"
+	href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+
+</head>
+<body>
+	<header class="header">
+		<div class="container container-res-full">
+			<div class="row no-gutter no-gutters mid row-ibl">
+				<div class="col-md-2 hidden-sm">
+					<a class="logo" href=""><img src="images/logo.png" alt=""></a>
+				</div>
+				<div class="col-sm-12 col-xs-12 col-md-10 text-right sm-center">
+					<div class="info-and-search">
+						<form>
+							<input class="a" type="text" name="key" placeholder="Nhập từ khóa muốn tìm">
+							<button type="submit"><img src="images/ic-search.png" alt="Tìm kiếm" title="Tìm kiếm"></button>
+						</form>
+						
+						<div class="header-hotline">
+							<div class="number">Hotline tư vấn 
+								<a href="">0981.535.888</a>
+							</div>
+						</div>
+					</div>
+					<div class="menu-bar menu-toggie">
+						<div class="container-res-full container">
+							<div class="menu-bar-mobile">
+								<a class="mobile-logo" href=""><img class="logo1" src="images/logo.png" alt=""></a>
+								<a href="#" class="icon-menu"><i class="fas fa-bars"></i></a>
+							</div>
+						</div>
+					</div>
+					<nav class="menu-main">
+						<ul class="nav-main">
+							<li><a href="">Thiết kế chung cư</a>
+								<ul>
+									<li><a href="">Chung cư Park Hill</a>
+										<ul>
+											<li><a href="">Menu cấp 3</a></li>
+											<li><a href="">Menu cấp 3</a></li>
+											<li><a href="">Menu cấp 3</a></li>
+										</ul>
+									</li>
+									<li><a href="">Chung cư Park City</a></li>
+									<li><a href="">Chung cư Times City</a></li>
+									<li><a href="">Chung cư Royal City</a></li>
+								</ul>
+							</li>
+							<li><a href="">Thiết kế biệt thự</a></li>
+							<li><a href="">Thiết kế văn phòng</a></li>
+							<li><a href="">Thiết kế nhà phố</a></li>
+							<li><a href="">Dự án</a></li>
+							<li><a href="">Liên hệ</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide"><img src="images/thiet-ke-noi-that-100-can.jpg"></div>
+			  <div class="swiper-slide"><img src="images/thiet-ke-noi-that-100-can.jpg"></div>
+			  <div class="swiper-slide"><img src="images/thiet-ke-noi-that-100-can.jpg"></div>
+			 
+			</div>
+			<div class="swiper-pagination"></div>
+		  </div>
+	  
+		  <!-- Swiper JS -->
+		  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	  
+		  <!-- Initialize Swiper -->
+		  <script>
+			var swiper = new Swiper(".mySwiper", {
+				autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+			  pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+				renderBullet: function (index, className) {
+				  return '<span class="' + className + '">' + (index + 1) + "</span>";
+				},
+			  },
+			});
+		  </script>
+		
+		<section class="why-choose-me">
+			<div class="container">
+				
+				<div class="row r1">
+					<div class="col-md-3 col-sm-6 col-xs-6 c1">
+						<div class="box-why">
+							<div class="icon">
+								<img src="images/ic-tuvan.png" >
+							</div>
+							<span>Tư vấn và khảo sát miễn phí</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 c1">
+						<div class="box-why">
+							<div class="icon">
+								<img src="images/ic-giaohang.png" >
+							</div>
+							<span>Kiến trúc sư 15 năm kinh nghiệm tư vấn</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 c1">
+						<div class="box-why">
+							<div class="icon">
+								<img src="images/ic-doitra.png" >
+							</div>
+							<span>Năng lực sản xuất thi công trọn gói</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 c1">
+						<div class="box-why">
+							<div class="icon">
+								<img src="images/ic-baohanh.png" >
+							</div>
+							<span>Chính sách bảo hành tận nơi</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="product">
+			<div class="container">
+				<h2 class="h-title text-center">dự án</h2>
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="box-product">
+							<a href="" class="c-image">
+								<img src="images/thiet-ke-noi-that-chung-cu-park-hill-110m2-anh-cuong-2.jpg" alt="">
+							</a>
+							<div class="caption">
+								<h3>
+									<a href="">Nội thất chung cư</a>
+								</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="box-product">
+							<a href="" class="c-image">
+								<img src="images/thiet-ke-noi-that-chung-cu-park-hill-110m2-anh-cuong-2.jpg" alt="">
+							</a>
+							<div class="caption">
+								<h3>
+									<a href="" >Nội thất chung cư</a>
+								</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="box-product">
+							<a href="" class="c-image">
+								<img src="images/thiet-ke-noi-that-chung-cu-park-hill-110m2-anh-cuong-2.jpg" alt="">
+							</a>
+							<div class="caption">
+								<h3>
+									<a href="">Nội thất chung cư</a>
+								</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="box-product">
+							<a href="" class="c-image">
+								<img src="images/thiet-ke-noi-that-chung-cu-park-hill-110m2-anh-cuong-2.jpg" alt="">
+							</a>
+							<div class="caption">
+								<h3>
+									<a href="">Nội thất chung cư</a>
+								</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="box-product">
+							<a href="" class="c-image">
+								<img src="images/thiet-ke-noi-that-chung-cu-park-hill-110m2-anh-cuong-2.jpg" alt="">
+							</a>
+							<div class="caption">
+								<h3>
+									<a href="">Nội thất chung cư</a>
+								</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div class="box-product">
+							<a href="" class="c-image">
+								<img src="images/thiet-ke-noi-that-chung-cu-park-hill-110m2-anh-cuong-2.jpg" alt="">
+							</a>
+							<div class="caption">
+								<h3>
+									<a href="">Nội thất chung cư</a>
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+	<section class="category-home">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<a href="">
+						<h2 class="h-title text-center ">Thiết kế chung cư</h2>
+					</a>
+					<div class="box-product-two box-product-big">
+						<a href="" class="c-image">
+							<img src="images/phong-khach-01.jpg" alt="">
+						</a>
+						<h3>
+							<a href="">Nội thất phòng khách eoclife tố hữu chị Linh</a>
+						</h3>
+					</div>
+					<div class="h-contact">
+						<div class="info">
+							<h2>LIÊN HỆ NGAY NHẬN NGAY ƯU ĐÃI &amp; CHIẾT KHẤU KHI ĐẶT THIẾT KẾ
+							</h2>
+							<div class="row">
+								<div class="col-sm-6 col-xs-12">
+									<a class="box-h-contact bg-blue" href="#" data-toggle="modal" title="Nhận đăng ký tư vấn">nhận đăng ký tư vấn ngay<span>Chúng tôi sẽ liên hệ tư vấn miễn phí</span>
+									</a>
+								</div>
+								<div class="col-sm-6 col-xs-12">
+									<a class="box-h-contact bg-gray" href="tel:0981.535.888" title="0981.535.888">hotline: 0981.535.888<span>Liên hệ ngay nhận tư vấn và báo giá thiết kế</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="row ">
+						<div class="col-md-12 col-sm-6 col-xs-12">
+							<div class="box-product-two box-product-small m">
+								<a href="" class="c-image">
+									<img src="images/thiet-ke-can-ho-mau-chung-cu-mandarin-garden-2-130-m2.jpg" alt="">
+								</a>
+								<h3>
+									<a href="">Thiết kế căn hộ mẫu chung cư Mandarin Garden 2 - 130 m2</a>
+								</h3>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-6 col-xs-12">
+							<div class="box-product-two box-product-small m">
+								<a href="" class="c-image">
+									<img src="images/thiet-ke-pk-chi-thuy-cc-vien-103-02.jpg" alt="">
+								</a>
+								<h3>
+									<a href="">Thiết kế nội thất chung cư Royal City 72m2 - anh Khánh</a>
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="category-home">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="row ">
+						<div class="col-md-12 col-sm-6 col-xs-12">
+							<div class="box-product-two box-product-small m">
+								<a href="" class="c-image">
+									<img src="images/thiet-ke-can-ho-mau-chung-cu-mandarin-garden-2-130-m2.jpg" alt="">
+								</a>
+								<h3>
+									<a href="">Thiết kế căn hộ mẫu chung cư Mandarin Garden 2 - 130 m2</a>
+								</h3>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-6 col-xs-12">
+							<div class="box-product-two box-product-small m">
+								<a href="" class="c-image">
+									<img src="images/thiet-ke-pk-chi-thuy-cc-vien-103-02.jpg" alt="">
+								</a>
+								<h3>
+									<a href="">Thiết kế nội thất chung cư Royal City 72m2 - anh Khánh</a>
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<a href="">
+						<h2 class="h-title text-center cc">Thiết kế biệt thự</h2>
+					</a>
+					<div class="box-product-two box-product-big">
+						<a href="" class="c-image">
+							<img src="images/5-result.jpg" alt="">
+						</a>
+						<h3>
+							<a href="">NGOẠI THẤT BIỆT THỰ BẮC NINH</a>
+						</h3>
+					</div>
+					<div class="h-contact">
+						<div class="info">
+							<h2>LIÊN HỆ NGAY NHẬN NGAY ƯU ĐÃI &amp; CHIẾT KHẤU KHI ĐẶT THIẾT KẾ
+							</h2>
+							<div class="row">
+								<div class="col-sm-6 col-xs-12">
+									<a class="box-h-contact bg-blue" href="#" data-toggle="modal" title="Nhận đăng ký tư vấn">nhận đăng ký tư vấn ngay<span>Chúng tôi sẽ liên hệ tư vấn miễn phí</span>
+									</a>
+								</div>
+								<div class="col-sm-6 col-xs-12">
+									<a class="box-h-contact bg-gray" href="tel:0981.535.888" title="0981.535.888">hotline: 0981.535.888<span>Liên hệ ngay nhận tư vấn và báo giá thiết kế</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="category-home">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<a href="">
+						<h2 class="h-title text-center">Thiết kế chung cư</h2>
+					</a>
+					<div class="box-product-two box-product-big">
+						<a href="" class="c-image">
+							<img src="images/phong-khach-01.jpg" alt="">
+						</a>
+						<h3>
+							<a href="">Nội thất phòng khách eoclife tố hữu chị Linh</a>
+						</h3>
+					</div>
+					<div class="h-contact">
+						<div class="info">
+							<h2>LIÊN HỆ NGAY NHẬN NGAY ƯU ĐÃI &amp; CHIẾT KHẤU KHI ĐẶT THIẾT KẾ
+							</h2>
+							<div class="row">
+								<div class="col-sm-6 col-xs-12">
+									<a class="box-h-contact bg-blue" href="#" data-toggle="modal" title="Nhận đăng ký tư vấn">nhận đăng ký tư vấn ngay<span>Chúng tôi sẽ liên hệ tư vấn miễn phí</span>
+									</a>
+								</div>
+								<div class="col-sm-6 col-xs-12">
+									<a class="box-h-contact bg-gray" href="tel:0981.535.888" title="0981.535.888">hotline: 0981.535.888<span>Liên hệ ngay nhận tư vấn và báo giá thiết kế</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="row ">
+						<div class="col-md-12 col-sm-6 col-xs-12">
+							<div class="box-product-two box-product-small m">
+								<a href="" class="c-image">
+									<img src="images/thiet-ke-can-ho-mau-chung-cu-mandarin-garden-2-130-m2.jpg" alt="">
+								</a>
+								<h3>
+									<a href="">Thiết kế căn hộ mẫu chung cư Mandarin Garden 2 - 130 m2</a>
+								</h3>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-6 col-xs-12">
+							<div class="box-product-two box-product-small m">
+								<a href="" class="c-image">
+									<img src="images/thiet-ke-pk-chi-thuy-cc-vien-103-02.jpg" alt="">
+								</a>
+								<h3>
+									<a href="">Thiết kế nội thất chung cư Royal City 72m2 - anh Khánh</a>
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		<div class="container">
+			<h2 class="h-title text-center" style="margin-top: 30px;">tin tức</h2>
+			<div class="swiper mySwiper01">
+				<div class="swiper-wrapper">
+				  <div class="swiper-slide anh1">
+					<div>
+						<div class="box-news">
+							<a href="" class="c-image">
+								<img src="images/noi-that-phong-khach-0k10-result.jpg" alt="">
+							</a>
+							<div class="box-text">
+								<h3>
+									<a href="">Không thể bỏ qua những căn bếp ở chung cư có thiết kế chuẩn mực</a>
+								</h3>
+								<div class="meta-time">29/05/2019</div>
+								<p>Phòng bếp luôn là nơi quan trọng, nơi sum vầy của gia đình mỗi ngày. Hãy cùng chiêm ngưỡng những căn bếp được Ihome thiết…</p>
+							</div>
+						</div>
+					</div>
+				  </div>
+				  <div class="swiper-slide anh1">
+					<div>
+						<div class="box-news">
+							<a href="" class="c-image">
+								<img src="images/noi-that-phong-khach-0k10-result.jpg" alt="">
+							</a>
+							<div class="box-text">
+								<h3>
+									<a href="">Không thể bỏ qua những căn bếp ở chung cư có thiết kế chuẩn mực</a>
+								</h3>
+								<div class="meta-time">29/05/2019</div>
+								<p>Phòng bếp luôn là nơi quan trọng, nơi sum vầy của gia đình mỗi ngày. Hãy cùng chiêm ngưỡng những căn bếp được Ihome thiết…</p>
+							</div>
+						</div>
+					</div>
+				  </div>
+				  <div class="swiper-slide anh1">
+					<div>
+						<div class="box-news">
+							<a href="" class="c-image">
+								<img src="images/noi-that-phong-khach-0k10-result.jpg" alt="">
+							</a>
+							<div class="box-text">
+								<h3>
+									<a href="">Không thể bỏ qua những căn bếp ở chung cư có thiết kế chuẩn mực</a>
+								</h3>
+								<div class="meta-time">29/05/2019</div>
+								<p>Phòng bếp luôn là nơi quan trọng, nơi sum vầy của gia đình mỗi ngày. Hãy cùng chiêm ngưỡng những căn bếp được Ihome thiết…</p>
+							</div>
+						</div>
+					</div>
+				  </div>
+				  <div class="swiper-slide anh1">
+					<div>
+						<div class="box-news">
+							<a href="" class="c-image">
+								<img src="images/noi-that-phong-khach-0k10-result.jpg" alt="">
+							</a>
+							<div class="box-text">
+								<h3>
+									<a href="">Không thể bỏ qua những căn bếp ở chung cư có thiết kế chuẩn mực</a>
+								</h3>
+								<div class="meta-time">29/05/2019</div>
+								<p>Phòng bếp luôn là nơi quan trọng, nơi sum vầy của gia đình mỗi ngày. Hãy cùng chiêm ngưỡng những căn bếp được Ihome thiết…</p>
+							</div>
+						</div>
+					</div>
+				  </div>
+				  <div class="swiper-slide anh1">
+					<div>
+						<div class="box-news">
+							<a href="" class="c-image">
+								<img src="images/noi-that-phong-khach-0k10-result.jpg" alt="">
+							</a>
+							<div class="box-text">
+								<h3>
+									<a href="">Không thể bỏ qua những căn bếp ở chung cư có thiết kế chuẩn mực</a>
+								</h3>
+								<div class="meta-time">29/05/2019</div>
+								<p>Phòng bếp luôn là nơi quan trọng, nơi sum vầy của gia đình mỗi ngày. Hãy cùng chiêm ngưỡng những căn bếp được Ihome thiết…</p>
+							</div>
+						</div>
+					</div>
+				  </div>
+				  <div class="swiper-slide anh1">
+					<div>
+						<div class="box-news">
+							<a href="" class="c-image">
+								<img src="images/noi-that-phong-khach-0k10-result.jpg" alt="">
+							</a>
+							<div class="box-text">
+								<h3>
+									<a href="">Không thể bỏ qua những căn bếp ở chung cư có thiết kế chuẩn mực</a>
+								</h3>
+								<div class="meta-time">29/05/2019</div>
+								<p>Phòng bếp luôn là nơi quan trọng, nơi sum vầy của gia đình mỗi ngày. Hãy cùng chiêm ngưỡng những căn bếp được Ihome thiết…</p>
+							</div>
+						</div>
+					</div>
+				  </div>
+				 
+				</div>
+				<div class="swiper-pagination"></div>
+			  </div>
+		  
+			  <!-- Swiper JS -->
+			  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		  
+			  <!-- Initialize Swiper -->
+			  <script>
+				var swiper = new Swiper(".mySwiper01", {
+					loop: true,
+				  slidesPerView: 1,
+				  spaceBetween: 10,
+				  autoplay: {
+						delay: 3500,
+						disableOnInteraction: false,
+					  },
+				  breakpoints: {
+					"@0.00": {
+					  slidesPerView: 1,
+					  spaceBetween: 10,
+					},
+					"@0.75": {
+					  slidesPerView: 2,
+					  spaceBetween: 20,
+					},
+					"@1.00": {
+					  slidesPerView: 3,
+					  spaceBetween: 40,
+					},
+					"@1.50": {
+					  slidesPerView: 4,
+					  spaceBetween: 50,
+					},
+				  },
+				});
+			  </script></div>
+		<section class="khachhang" style="margin-top: 50px;">
+			<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<h2 class="h-title text-center">khách hàng</h2>
+					<div class="swiper mySwiper02">
+						<div class="swiper-wrapper">
+						  <div class="swiper-slide anh"> <div style="background-color: #1b515b; padding-top: 5%; padding-bottom: 5%;     ">
+							<div class="items" style="border: dashed 1px #fff; padding-top: 5%; padding-bottom: 5%; margin-left: 3%; margin-right: 3%;">
+								<img src="images/quyen-luc-mem-2.jpg" alt="" style="width: 163px; height: 163px; margin-left: 33%; ">
+								<div class="text">CHỊ PHƯƠNG TIMES CITY: Lựa chọn được đồ nội thất ưng ý không hề đơn giản, sau khi tham khảo nhiều thương hiệu nội thất trên thị trường tôi chọn iHome vì mẫu mã rất đẹp và đa dạng</div>
+							</div>
+						</div></div>
+				
+						  <div class="swiper-slide anh">
+							<div style="background-color: #1b515b; padding-top: 5%; padding-bottom: 5%;     ">
+								<div class="items " style="border: dashed 1px #fff; padding-top: 5%; padding-bottom: 5%;margin-left: 3%; margin-right: 3%;">
+									<img src="images/quyen-luc-mem-2.jpg" alt="" style="width: 163px; height: 163px; margin-left: 33%; ">
+									<div class="text">CHỊ PHƯƠNG TIMES CITY: Lựa chọn được đồ nội thất ưng ý không hề đơn giản, sau khi tham khảo nhiều thương hiệu nội thất trên thị trường tôi chọn iHome vì mẫu mã rất đẹp và đa dạng</div>
+								</div>
+							</div>
+						  </div>
+						  <div class="swiper-slide anh">
+							<div style="background-color: #1b515b; padding-top: 5%; padding-bottom: 5%;     ">
+								<div class="items" style="border: dashed 1px #fff; padding-top: 5%; padding-bottom: 5%;margin-left: 3%; margin-right: 3%;">
+									<img src="images/quyen-luc-mem-2.jpg" alt="" style="width: 163px; height: 163px; margin-left: 33%; ">
+									<div class="text">CHỊ PHƯƠNG TIMES CITY: Lựa chọn được đồ nội thất ưng ý không hề đơn giản, sau khi tham khảo nhiều thương hiệu nội thất trên thị trường tôi chọn iHome vì mẫu mã rất đẹp và đa dạng</div>
+								</div>
+							</div>
+						  </div>
+						  <div class="swiper-slide anh">
+							<div style="background-color: #1b515b; padding-top: 5%; padding-bottom: 5%;     ">
+								<div class="items" style="border: dashed 1px #fff; padding-top: 5%; padding-bottom: 5%;margin-left: 3%; margin-right: 3%;">
+									<img src="images/quyen-luc-mem-2.jpg" alt="" style="width: 163px; height: 163px; margin-left: 33%; ">
+									<div class="text">CHỊ PHƯƠNG TIMES CITY: Lựa chọn được đồ nội thất ưng ý không hề đơn giản, sau khi tham khảo nhiều thương hiệu nội thất trên thị trường tôi chọn iHome vì mẫu mã rất đẹp và đa dạng</div>
+								</div>
+							</div>
+						  </div>
+						 
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+						
+					  </div>
+				  
+					  <!-- Swiper JS -->
+					  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+				  
+					  <!-- Initialize Swiper -->
+					  <script>
+						var swiper = new Swiper(".mySwiper02", {
+							loop: true,
+						   autoplay: {
+							delay: 2500,
+							disableOnInteraction: false,
+						},
+						  pagination: {
+							el: ".swiper-pagination",
+							type: "progressbar",
+						  },
+						  navigation: {
+							nextEl: ".swiper-button-next",
+							prevEl: ".swiper-button-prev",
+						  },
+						});
+					  </script>
+				</div>
+				<div class="col-12 col-md-6">
+					<h2 class="h-title text-center sl">Đối Tác-khách hàng</h2>
+					<div class="bo" >
+					<div class="swiper mySwiper04" >
+						<div class="swiper-wrapper" >
+						  <div class="swiper-slide ">
+							<div class="row">
+								<div class="col-12">
+									<div>
+										<img src="images/partner4.jpg"  alt="">
+									</div>	</div>
+									<div class="col-12">
+									<div>
+											<img src="images/logo-inax.jpg" style="width: 80px; height: 80px;margin-top: 60px;" alt="">
+									</div></div>
+							</div>
+						  </div>
+						  <div class="swiper-slide ">
+							<div class="row">
+								<div class="col-12">
+									<div>
+										<img src="images/partner3.jpg" style="height: 18px;"  alt="">
+									</div>	</div>
+									<div class="col-12">
+									<div>
+											<img src="images/partner2.jpg" style="margin-top: 80px;" alt="">
+									</div></div>
+							</div>
+						  </div>
+						  <div class="swiper-slide ">
+							<div class="row">
+								<div class="col-12">
+									<div>
+										<img src="images/logo-ashley-png.png" style="width: 60px; height: 60px; margin-left: 40px;"  alt="">
+									</div>	</div>
+									<div class="col-12">
+									<div>
+											<img src="images/partner1.jpg" style="margin-top: 50px;" alt="">
+									</div></div>
+							</div>
+						  </div>
+						  <div class="swiper-slide ">
+							<div class="row">
+								<div class="col-12">
+									<div>
+										<img src="images/logo-ashley-png.png" style="width: 60px; height: 60px; margin-left: 40px;"  alt="">
+									</div>	</div>
+									<div class="col-12">
+									<div>
+											<img src="images/partner1.jpg" style="margin-top: 50px;" alt="">
+									</div></div>
+							</div>
+						  </div>
+						  <div class="swiper-slide ">
+							<div class="row">
+								<div class="col-12">
+									<div>
+										<img src="images/partner4.jpg"  alt="">
+									</div>	</div>
+									<div class="col-12">
+									<div>
+											<img src="images/logo-inax.jpg" style="width: 80px; height: 80px;margin-top: 60px;" alt="">
+									</div></div>
+							</div>
+						  </div>
+						  <div class="swiper-slide ">
+							<div class="row">
+								<div class="col-12">
+									<div>
+										<img src="images/partner3.jpg" style="height: 18px;"  alt="">
+									</div>	</div>
+									<div class="col-12">
+									<div>
+											<img src="images/partner2.jpg" style="margin-top: 80px;" alt="">
+									</div></div>
+							</div>
+						  </div>
+						 
+						</div>
+						<div class="swiper-pagination"></div>
+					  </div>
+				  
+					  <!-- Swiper JS -->
+					  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+				  
+					  <!-- Initialize Swiper -->
+					  <script>
+						var swiper = new Swiper(".mySwiper04", {
+							loop: true,
+						  slidesPerView: 1,
+						  spaceBetween: 10,
+						  autoplay: {
+								delay: 2800,
+								disableOnInteraction: false,
+							  },
+						  breakpoints: {
+							"@0.00": {
+							  slidesPerView: 1,
+							  spaceBetween: 10,
+							},
+							"@0.75": {
+							  slidesPerView: 2,
+							  spaceBetween: 20,
+							},
+							"@1.00": {
+							  slidesPerView: 3,
+							  spaceBetween: 40,
+							},
+							
+						  },
+						});
+					  </script>
+
+				</div></div>
+			</div></div>
+		</section>
+		<section class="video" style="margin-top: 50px;">
+			<div class="container">
+				<h2 class="h-title text-center">Video dự án</h2>
+				<iframe width="100%" height="500" src="https://www.youtube.com/embed/VoC5tdK0cJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="content-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<h3 class="foot-title"><span>liên hệ</span></h3>
+						<ul class="contact-with-me">
+							<li class="phone"><a href="">0981.535.888</a></li>
+							<li class="mail"><a href="">noithatihome@gmail.com</a></li>
+							<li class="address"><span>HH2 Bắc Hà, Trung Văn, Nam Từ Liêm - Hà Nội</span></li>
+							<li class="time">
+								<div>Thời gian phục vụ<span>24/7</span></div>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<h3 class="foot-title"><span>về chúng tôi</span></h3>
+						<ul class="menu-footer">
+							<li><a href="">Giới thiệu</a></li>
+							<li><a href="">Liên hệ</a></li>
+							<li><a href="">Trở thành đối tác</a></li>
+							<li><a href="">Tuyển dụng</a></li>
+							<li><a href="">Trở thành đối tác</a></li>
+							<li><a href="">Tuyển dụng</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<h3 class="foot-title"><span>hỗ trợ khách hàng</span></h3>
+						<ul class="menu-footer">
+							<li><a href="">Chính sách bảo hành</a></li>
+							<li><a href="">Chính sách vận chuyển</a></li>
+							<li><a href="">Thiết kế và thi công nội thất</a></li>
+							<li><a href="">Tư vấn nội thất nhà</a></li>
+							<li><a href="">Cách thức thanh toán</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12" style="padding-bottom: 10px;">
+						<h3 class="foot-title"><span>chúng tôi trên mạng xã hội</span></h3>
+						<iframe  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FKientruciHome%2F&tabs=timeline&width=278&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2411870065793416" width="278" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="footer-dk">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<p>Đăng ký để cập nhật thông tin mới nhất về khuyến mãi, sản phẩm và sự kiện.</p>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<form class="form-dk-footer">
+								<input type="text" name="email" placeholder="Email của bạn">
+								<button type="submit" name="ffooter"><i class="fa fa-angle-right"></i></button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="absolute-footer">
+			<div class="container">
+				© 2018 Nội thất Ihome™ All rights reserved
+			</div>
+		</div>
+	</footer>
+
+<div class="hotline-phone-ring-wrap">
+ <div class="hotline-phone-ring">
+  <div class="hotline-phone-ring-circle"></div>
+  <div class="hotline-phone-ring-circle-fill"></div>
+  <div class="hotline-phone-ring-img-circle">
+  <a href="tel:0903880905" class="pps-btn-img">
+   <img src="images/icon-call-dichvuvip.png" width="50">
+  </a>
+  </div>
+ </div>
+</div>
+<a id="button"></a>
+<script>
+	var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+</script>
+</body>
+
+<script src="js/tiny-slider.js"></script>
+	<script src="js/jquery-3.3.0.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/jQuery.js"></script>
+</html>
